@@ -1,0 +1,21 @@
+//Checking if a User is Eligible to Vote.
+
+#include <stdio.h>
+
+int main() {
+
+int age = 20; // Declare and initialize a variable with the user's age
+
+// Check if the age is 18 or above
+
+if (age >= 18) {
+
+// If the condition is true, print that the user can vote
+
+printf("You are eligible to vote.\n");
+
+}
+
+return 0; // End the program successfully
+
+}
