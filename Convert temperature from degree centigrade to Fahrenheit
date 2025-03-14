@@ -1,0 +1,27 @@
+//Program to convert temperature from degree centigrade to Fahrenheit
+
+// formula : Fahrenheit = (Celsius * 9/5) + 32
+
+#include <stdio.h> // Include the standard input-output library
+
+int main() {
+
+float celsius, fahrenheit; // Declare float variables to store temperatures in Celsius and Fahrenheit
+
+// Prompt the user to enter the temperature in Celsius
+
+printf("Enter the temperature in degrees Celsius: ");
+
+scanf("%f", &celsius); // Read the temperature entered by the user and store it in the 'celsius' variable
+
+// Convert the temperature to Fahrenheit using the formula
+
+fahrenheit = (celsius * 9 / 5) + 32; // Formula: Fahrenheit = (Celsius * 9/5) + 32
+
+// Display the temperature in Fahrenheit
+
+printf("%.2f degrees Celsius is equal to %.2f degrees Fahrenheit.\n", celsius, fahrenheit);
+
+return 0; 
+}
+//Return 0 to indicate successful execution
