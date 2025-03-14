@@ -1,0 +1,14 @@
+//C Program: Print a Welcome Message
+
+#include <stdio.h> // Include standard input-output library
+
+void main() // Start of the main function
+
+{
+
+printf("Welcome to C Programming!\n"); // Print a welcome message on the screen
+
+}
+
+// Explanation: This program displays the message "Welcome
+to C Programming!" when executed.
