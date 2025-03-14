@@ -1,0 +1,55 @@
+//C program that collects and displays the information of a car, including its model, brand, year
+of manufacture, mileage, and price. Take inputs from users.
+
+#include <stdio.h>
+
+int main() {
+
+char model[50]; // Array of characters to store the car model
+
+char brand[50]; // Array of characters to store the car brand
+
+int yearOfManufacture; // Integer to store the year of manufacture
+
+float mileage; // Float to store the car's mileage (in km/l)
+
+double price; // Double to store the car's price
+
+// Input the car's model
+
+printf("Enter the car's model: ");
+
+fgets(model, sizeof(model), stdin); // Using fgets to read the model name
+
+// Input the car's brand
+
+printf("Enter the car's brand: ");
+
+fgets(brand, sizeof(brand), stdin); // Using fgets to read the brand name
+
+printf("Enter the year of manufacture: ");
+
+scanf("%d", &yearOfManufacture);
+
+printf("Enter the car's mileage (in km/l): ");
+
+scanf("%f", &mileage);
+
+printf("Enter the car's price (in USD): ");
+
+scanf("%lf", &price);
+
+printf("\n--- Car Information ---\n");
+
+printf("Model: %s", model);
+
+printf("Brand: %s", brand);
+
+printf("Year of Manufacture: %d\n", yearOfManufacture);
+
+printf("Mileage: %.2f km/l\n", mileage);
+
+printf("Price: $%.2f\n", price
+
+return 0; 
+//END OF PROGRAM
