@@ -1,0 +1,19 @@
+//Checking if a Number is Positive.
+
+#include <stdio.h>
+
+int main() {
+
+int number = 7; // Declare and initialize a variable with a value
+
+// Check if the number is greater than 0
+
+if (number > 0) {
+
+// If the condition is true, print the message
+
+printf("The number is positive.\n");
+
+}
+
+return 0; // Return 0 to indicate the program ended successfully
