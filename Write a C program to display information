@@ -1,0 +1,35 @@
+//Write a C program to display information like Name, Gender, Branch, Roll Number and
+Percentage of Previous Examination for a student.
+
+#include <stdio.h> // Preprocessor directive to include standard input-output library
+
+int main() { // The main function, where program execution begins
+
+// Declare variables to store student information
+
+char name[50] = "John Doe"; // Character array (string) to store the student's name
+
+char gender = 'M'; // Character variable to store the student's gender ('M' for Male, 'F' for Female)
+
+char branch[50] = "Biomedical Engineering"; // Character array (string) to store the student's branch
+
+int rollNumber = 12345; // Integer variable to store the student's roll number
+
+float percentage = 85.5; // Float variable to store the student's percentage in the previous examination
+
+// Display the student's information
+
+printf("Student Information:\n"); // Prints the header
+
+printf("Name: %s\n", name); // %s is the format specifier for strings
+
+printf("Gender: %c\n", gender); // %c is the format specifier for characters
+
+printf("Branch: %s\n", branch); // %s for strings
+
+printf("Roll Number: %d\n", rollNumber); // %d is the format specifier for integers
+
+printf("Percentage of Previous Examination: %.2f%%\n", percentage);
+
+return 0;}
+// Return 0 to indicate successful execution
