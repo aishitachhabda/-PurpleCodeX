@@ -1,0 +1,33 @@
+//While purchasing certain items, a discount of 10% is offered if the quantity purchased is more than 1000. If
+quantity and price per item are input through the keyboard, write a program to calculate the total expenses..
+
+#include <stdio.h>
+
+int main() {
+
+int quantity; // Variable to store quantity of items
+
+float price_per_item; // Variable to store price per item
+
+float total_expense; // Variable to store the total expense
+
+// Taking user inputs for quantity and price per item in a single statement
+
+printf("Enter the quantity and price per item (separated by space): ");
+
+scanf("%d %f", &quantity, &price_per_item); // Read the inputs for quantity and price
+
+// Calculate the total expense before discount
+
+total_expense = quantity * price_per_item;
+
+// Check if the quantity is greater than 1000 for discount eligibility
+
+if (quantity > 1000) {
+
+total_expense = total_expense - (0.10 * total_expense); // Apply 10% discount
+// Display the total expense
+
+printf("The total expense is: %.2f\n", total_expense);
+
+return 0; // End of the program
