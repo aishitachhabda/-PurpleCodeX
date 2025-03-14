@@ -1,0 +1,40 @@
+//Write a C program to find area and circumference of a sphere. Take user define inputs.
+
+Surface Area = 4 * π * r^2
+
+Circumference = 2 * π * r
+
+#include <stdio.h> // Preprocessor directive to include the standard input-output library
+
+#include <math.h> // Include the math library for mathematical functions like pow()
+
+int main() {
+
+float radius; // Declare a float variable to store the radius of the sphere
+
+float surfaceArea, circumference; // Declare float variables to store the surface area and circumference of the sphere
+
+// Ask the user to input the radius
+
+printf("Enter the radius of the sphere: ");
+
+scanf("%f", &radius); // Read the radius entered by the user
+
+// Calculate the surface area of the sphere
+
+surfaceArea = 4 * M_PI * pow(radius, 2); // Formula: Surface Area = 4 * π * r^2
+
+// Calculate the circumference of the sphere (circumference of the great circle)
+
+circumference = 2 * M_PI * radius; // Formula: Circumference = 2 * π * r
+
+// Display the results
+
+printf("Surface Area of the sphere: %.2f square units\n", surfaceArea);
+
+printf("Circumference of the sphere: %.2f units\n", circumference);
+
+return 0; 
+
+
+// Return 0 to indicate successful execution
