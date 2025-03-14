@@ -1,0 +1,14 @@
+//C Program: Print the Sum of Two Numbers
+
+#include <stdio.h> // Include standard input-output library
+
+void main() { // Start of the main function
+
+int a = 5, b = 3; // Declare and initialize two integer variables
+
+int sum = a + b; // Calculate the sum of a and b
+
+printf("Sum of %d and %d is %d\n", a, b, sum); // Print the sum on the screen
+
+//Explanation: This program calculates the sum of two numbers
+(5 and 3) and prints "Sum of 5 and 3 is 8"..
