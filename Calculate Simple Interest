@@ -1,0 +1,18 @@
+//C Program: Calculate Simple Interest
+
+#include <stdio.h> // Include standard input-output library
+
+void main() { // Start of the main function
+
+int principal = 1000; // Declare and initialize the principal amount
+
+float rate = 5.0; // Declare and initialize the rate of interest
+
+int time = 3; // Declare and initialize the time period in years
+
+float interest = (principal * rate * time) / 100; // Calculate the simple interest
+
+printf("Simple Interest is: %.2f\n", interest);
+
+
+//Explanation: Simple Interest is: 150.00
