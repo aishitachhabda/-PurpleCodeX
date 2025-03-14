@@ -1,0 +1,31 @@
+// Program to Add Two Numbers: User Defined Inputs
+
+#include <stdio.h> // Include the standard input-output library
+
+void main() { // Start of the main function, where program execution begins
+
+int num1, num2, sum; // Declare integer variables to store the two numbers and their sum
+
+// Prompt the user to enter the first number
+
+printf("Enter the first number: ");
+
+// Read the user's input and store it in the variable 'num1'
+
+scanf("%d", &num1);
+
+// Prompt the user to enter the second number
+
+printf("Enter the second number: ");
+
+// Read the user's input and store it in the variable 'num2'
+
+scanf("%d", &num2);
+
+// Calculate the sum of num1 and num2, and store the result in 'sum'
+
+sum = num1 + num2;
+
+// Display the calculated sum on the screen
+
+printf("The sum is: %d\n", sum);
